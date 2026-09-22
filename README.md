@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,36&height=220&section=header&text=AltzGamerz&fontSize=56&fontAlignY=36&desc=Full-Stack%20%E2%80%A2%20Systems%20%26%20Network%20Engineer%20%E2%80%A2%20TabisVPN%20Creator&descSize=18&descAlignY=62" width="100%" alt="AltzGamerz Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,36&height=220&section=header&text=AltzGamerz&fontSize=56&fontAlignY=36&desc=Full-Stack%20%E2%80%A2%20Systems%20and%20Network%20Engineer%20%E2%80%A2%20TabisVPN%20Creator&descSize=18&descAlignY=62" width="100%" alt="AltzGamerz Header" />
 
 <!-- Typing Dynamic Subtitle -->
 <a href="https://github.com/nikolaevsaryal10-byte">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+AltzGamerz+(@nikolaevsaryal10-byte)+%F0%9F%91%8B;Full-Stack+%26+Systems+Developer;Architect+%26+Creator+of+TabisVPN;FastAPI+%E2%80%A2+Kotlin+Compose+%E2%80%A2+Go+%E2%80%A2+C+%E2%80%A2+Tailwind" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+AltzGamerz+(@nikolaevsaryal10-byte)+%F0%9F%91%8B;Full-Stack+and+Systems+Developer;Architect+and+Creator+of+TabisVPN;FastAPI+%E2%80%A2+Kotlin+Compose+%E2%80%A2+Go+%E2%80%A2+Tailwind" alt="Typing SVG" />
 </a>
 
 <br/>
