@@ -1,46 +1,29 @@
 <div align="center">
 
-<!-- Tactical HUD SVG Banner -->
-<img src="./assets/cyber_banner.svg" width="100%" alt="AltzGamerz Tactical HUD Banner" />
+<!-- Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,36&height=220&section=header&text=AltzGamerz&fontSize=56&fontAlignY=36&desc=Full-Stack%20%E2%80%A2%20Systems%20and%20Network%20Engineer%20%E2%80%A2%20TabisVPN%20Creator&descSize=18&descAlignY=62" width="100%" alt="AltzGamerz Header" />
+
+<!-- Typing Dynamic Subtitle -->
+<a href="https://github.com/nikolaevsaryal10-byte">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+AltzGamerz+(@nikolaevsaryal10-byte)+%F0%9F%91%8B;Full-Stack+and+Systems+Developer;Architect+and+Creator+of+TabisVPN;FastAPI+%E2%80%A2+Kotlin+Compose+%E2%80%A2+Go+%E2%80%A2+Tailwind" alt="Typing SVG" />
+</a>
 
 <br/>
 
-<!-- Dynamic Technical Typing Subtitle -->
-<a href="https://github.com/nikolaevsaryal10-byte">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3000&pause=1000&color=3D7EFF&center=true&vCenter=true&width=750&lines=AltzGamerz+(@nikolaevsaryal10-byte)+//+SYS_INIT;Full-Stack+%26+Systems+Architect+%E2%80%A2+TabisVPN;FastAPI+ASGI+%E2%80%A2+Kotlin+Compose+%E2%80%A2+Go+Xray+%E2%80%A2+C+HEV;VLESS+Reality+%E2%80%A2+Hysteria+2+QUIC+%E2%80%A2+Tailwind" alt="Typing SVG" />
-</a>
-
-<br/><br/>
-
-<!-- Tactical HUD Status Badges (Strict Flat-Square, #0a0a0a panels, #2a2a2a borders) -->
+<!-- Profile Badges Bar -->
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-000000?style=flat-square&logo=statuspage&logoColor=3d7eff&labelColor=0a0a0a" alt="Status" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/SECURITY-AES--256--GCM-000000?style=flat-square&logo=hackthebox&logoColor=ff4d4d&labelColor=0a0a0a" alt="Security" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/TUNNEL-VLESS%20%7C%20HY2-000000?style=flat-square&logo=wireguard&logoColor=3d7eff&labelColor=0a0a0a" alt="Protocols" />
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=nikolaevsaryal10-byte&color=000000&style=flat-square&label=TERMINAL+VIEWS" alt="Views" />
+  <img src="https://komarev.com/ghpvc/?username=nikolaevsaryal10-byte&color=009688&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Focus-High--Performance%20Networks-blueviolet?style=for-the-badge&logo=wireguard&logoColor=white" alt="Focus" />
+  <img src="https://img.shields.io/badge/Flagship-TabisVPN-0061A4?style=for-the-badge&logo=shield&logoColor=white" alt="Project" />
 </p>
 
 </div>
 
 ---
 
-### [ 01 // OVERVIEW ] About Me / Обо мне
+### 👨‍💻 About Me / Обо мне
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ SYS_SPEC // 0x73F7 // OPERATIVE_SPECIFICATION                               │
-│ ◈ OPERATIVE  : AltzGamerz                                                    │
-│ ◈ ALIAS      : @nikolaevsaryal10-byte                                        │
-│ ◈ ROLE       : Full-Stack & Systems Architect • Tactical HUD Engineer       │
-│ ◈ DIRECTIVE  : High-Throughput Network Systems • Anti-Censorship Protocols   │
-│ ◈ FLAGSHIP   : TABIS VPN (Cross-Platform Resilient Routing Ecosystem)        │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-> *"Проектирую высокопроизводительные сетевые сервисы, асинхронные бэкенды и нативные клиенты с упором на криптографию, устойчивость к DPI-блокировкам и приватность данных."*
+> *"Building high-throughput network architectures, privacy-first software, and resilient cross-platform systems."*
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IKFVtPf8jP6KJH16dB/giphy.gif" width="480" alt="Anime Vibe" />
@@ -53,30 +36,24 @@
 
 ---
 
-### [ 02 // STACK ] Currently Learning / Сейчас изучаю
+### 🌱 Сейчас изучаю / Currently Learning
 
-<div align="center">
-  <img src="https://img.shields.io/badge/CURRENTLY_LEARNING-REACT%20%26%20MODERN%20FRONTEND-000000?style=flat-square&logo=react&logoColor=3d7eff&labelColor=0a0a0a" alt="Learning React" />
-</div>
-
-<br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/Currently%20Learning-React%20%26%20Modern%20Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="Learning React" />
+</p>
 
 > Активно погружаюсь в **React** и компонентную веб-архитектуру, расширяя кругозор от нативного мобильного Compose и Vanilla JS до полноценного SPA-стека.
 
 ---
 
-### [ 03 // FLAGSHIP ] TabisVPN / Флагманский проект
+### 🚀 Флагманский проект: [TabisVPN](https://github.com/nikolaevsaryal10-byte/tabisvpn)
 
 <div align="center">
-  <img src="https://img.shields.io/badge/MOBILE-KOTLIN%202.x%20%7C%20COMPOSE-000000?style=flat-square&logo=android&logoColor=3d7eff&labelColor=0a0a0a" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/BACKEND-FASTAPI%20%7C%20UVICORN-000000?style=flat-square&logo=fastapi&logoColor=3d7eff&labelColor=0a0a0a" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/WEB-TAILWIND%20%7C%20ES6+-000000?style=flat-square&logo=tailwindcss&logoColor=3d7eff&labelColor=0a0a0a" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/CORE-GO%20XRAY%20%7C%20C%20HEV-000000?style=flat-square&logo=go&logoColor=3d7eff&labelColor=0a0a0a" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/TUNNEL-VLESS%20%7C%20HY2-000000?style=flat-square&logo=cloudflare&logoColor=ff4d4d&labelColor=0a0a0a" />
+  <img src="https://img.shields.io/badge/Android-Kotlin%202.x%20%7C%20Compose-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Backend-FastAPI%20%7C%20Uvicorn-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Web-TailwindCSS%20%7C%20ES6+-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Core-Go%20%7C%20Xray%20%7C%20C%20HEV-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Protocols-VLESS%20%7C%20Hysteria%202-FF6F00?style=for-the-badge&logo=cloudflare&logoColor=white" />
 </div>
 
 <br/>
@@ -87,92 +64,62 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1448TKNMMg4BFu/giphy.gif" width="480" alt="Anime Project Vibe" />
 </p>
 
-```
-                    ┌─────────────────────────────────────────────────────────┐
-                    │               TABIS CYBERDECK ECOSYSTEM                 │
-                    │               Modular Systems Architecture              │
-                    └────────────────────────────┬────────────────────────────┘
-                                                 │
-         ┌───────────────────────┬───────────────┴───────────────┬───────────────────────┐
-         ▼                       ▼                               ▼                       ▼
-┌──────────────────┐   ┌──────────────────┐            ┌──────────────────┐   ┌──────────────────┐
-│   MOBILE NODE    │   │  DESKTOP RELAY   │            │   WEB MATRIX     │   │  SECURITY CORE   │
-│  Клиент Android  │   │ Клиент Windows   │            │   Веб-портал     │   │  Протоколы ядра  │
-├──────────────────┤   ├──────────────────┤            ├──────────────────┤   ├──────────────────┤
-│ • Kotlin 2.x     │   │ • Python 3.11+   │            │ • Tailwind CSS   │   │ • VLESS Reality  │
-│ • JetpackCompose │   │ • WinINet API    │            │ • Vanilla ES6+   │   │ • Hysteria2 QUIC │
-│ • Go Xray Core   │   │ • Реестр Windows │            │ • QRious QR Gen  │   │ • C HEV Tunnel   │
-│ • C HEV Tunnel   │   │ • CustomTkinter  │            │ • Glassmorphism  │   │ • Argon2id Crypto│
-└────────┬─────────┘   └────────┬─────────┘            └────────┬─────────┘   └────────┬─────────┘
-         │                      │                               │                      │
-         └──────────────────────┴───────────────┬───────────────┴──────────────────────┘
-                                                ▼
-                               ┌──────────────────────────────────┐
-                               │       CORE BACKEND ENGINE        │
-                               │   Серверный центр и демоны       │
-                               ├──────────────────────────────────┤
-                               │ • FastAPI + Uvicorn ASGI Сервер  │
-                               │ • SQLite WAL Режим (Thread-Safe) │
-                               │ • ЮKassa Фискализация 54-ФЗ      │
-                               │ • 4 Фоновых системных демона     │
-                               └──────────────────────────────────┘
-```
-
-#### [ 03.1 // WEB ] Frontend & User Touchpoints
-- **Стек:** Modern HTML5, Tailwind CSS (с плагинами container-queries и custom forms), Vanilla JavaScript (ES6+ async/await, Fetch API), Google Fonts (*Inter*, *JetBrains Mono*, *Plus Jakarta Sans*), QRious (генерация QR-кодов).
-- **Архитектура:**
-  - **Landing Portal (`index.html`, `/android`, `/windows`, `/ios`):** Отзывчивый Mobile-First лендинг с тёмной/светлой темой, стеклянными карточками (Glassmorphism), анимацией и прямой раздачей дистрибутивов.
+#### 🌐 1. Frontend & Web Touchpoints (Фронтенд и веб-интерфейсы)
+- **Технологический стек:** Modern HTML5, Tailwind CSS (с плагинами container-queries и custom forms), Vanilla JavaScript (ES6+ async/await, Fetch API), Google Fonts (*Inter*, *JetBrains Mono*, *Plus Jakarta Sans*, *Material Symbols*), QRious (динамическая генерация QR-кодов).
+- **Архитектура и компоненты:**
+  - **Landing & Download Portal (`index.html`, `/android`, `/windows`, `/ios`):** Отзывчивый Mobile-First лендинг с тёмной/светлой темой, стеклянными карточками (Glassmorphism), анимацией и прямым скачиванием дистрибутивов.
   - **User Cabinet (`profile/auth`, `profile/`):** Личный кабинет пользователя с просмотром подписки, таймером активности, интеграцией чекаута ЮKassa, генерацией QR-кодов для мгновенного подключения устройств и поддержкой live-чата.
   - **Admin Dashboard (`admin/`):** Административная панель управления: метрики в реальном времени, мониторинг нод сервера, учёт трафика, управление клиентами и системные логи.
 
-#### [ 03.2 // CORE ] Backend & Background Daemons
-- **Стек:** Python 3.11+, FastAPI, Uvicorn ASGI Server, SQLite3 с оптимизацией WAL (`PRAGMA journal_mode=WAL`), Pydantic v2, Cryptography (Argon2id, AES-256-GCM, HMAC-SHA256).
-- **Архитектура:**
+#### ⚙️ 2. Backend & Core Services (Серверный бэкенд и демоны)
+- **Технологический стек:** Python 3.11+, FastAPI, Uvicorn ASGI Server, SQLite3 с оптимизацией WAL (`PRAGMA journal_mode=WAL`), Pydantic v2, Cryptography (Argon2id, AES-256-GCM, HMAC-SHA256).
+- **Архитектура сервисов и микромодулей:**
   - **API Routers (`routers/`):** 
     - `auth.py` — безопасная авторизация, генерация OTP, выдача JWT/Bearer-сессий.
     - `profile.py` — управление профилем, генерация клиентских конфигов, интеграция платёжного шлюза.
     - `client.py` — протокол синхронизации мобильных клиентов, валидация ключей доступа.
     - `admin.py` — управление пулом пользователей, ручное продление, аналитика и статистика.
-  - **Фоновые демоны (`services/`):**
+  - **Автономные фоновые демоны (`services/`):**
     - `billing_service.py` — автоматический контроль сроков подписок, grace-периоды, сверка платежей.
     - `traffic_service.py` — сбор и агрегация сетевого трафика из системных журналов (`journalctl`) Hysteria 2.
     - `xray_service.py` — динамическая генерация конфигураций Xray-core и балансировка нагрузки.
     - `email_service.py` — асинхронная отправка email-уведомлений, чеков и одноразовых кодов (SMTP).
   - **Платёжная инфраструктура:** ЮKassa API с криптографической проверкой вебхуков и автоматической фискализацией чеков (54-ФЗ / 422-ФЗ).
 
-#### [ 03.3 // MOBILE ] Android Tactical Client
-- **Стек:** Kotlin 2.x, Android SDK 35 (minSdk 24), Jetpack Compose, Material Design 3, Kotlin Coroutines, StateFlow / SharedFlow, Tencent MMKV, OkHttp3 / Retrofit, WorkManager, Gradle Kotlin DSL.
-- **Низкоуровневые ядра:**
+#### 📱 3. Mobile Client / Android (Нативный мобильный клиент)
+- **Технологический стек:** Kotlin 2.x, Android SDK 35 (minSdk 24), Jetpack Compose, Material Design 3, Kotlin Coroutines, StateFlow / SharedFlow, Tencent MMKV, OkHttp3 / Retrofit, WorkManager, Gradle Kotlin DSL.
+- **Низкоуровневое ядро туннелирования:**
   - **`AndroidLibXrayLite` (Golang / Go Mobile):** Интеграция высокопроизводительного ядра Xray-core v5 в виде AAR-библиотеки.
   - **`hev-socks5-tunnel` (C / CMake / Android NDK):** Ультралегковесный C-туннель для перехвата IP-пакетов из `VpnService` и трансляции в SOCKS5/Tun2Socks.
   - **Архитектура UI:** Чистая MVVM-архитектура, реактивные экраны авторизации, управления серверами, настройки протоколов и встроенный безопасный загрузчик обновлений.
 
-#### [ 03.4 // DESKTOP ] Windows Companion Client
-- **Стек:** Python 3.11+, Tkinter / CustomTkinter, WinINet Windows API.
-- **Функционал:** Управление системным прокси-сервером через реестр Windows, фоновые процессы туннелирования, графический интерфейс подключения в один клик.
+#### 🖥️ 4. Desktop Client / Windows (Десктопный клиент)
+- **Технологический стек:** Python 3.11+, Tkinter / CustomTkinter, WinINet Windows API.
+- **Функциональность:** Управление системным прокси-сервером через реестр Windows, фоновые процессы туннелирования, графический интерфейс подключения в один клик.
 
-#### [ 03.5 // STEALTH ] Protocols & Censorship Bypass
-- **VLESS + XTLS / Reality:** Имитирует легитимное TLS 1.3 рукопожатие к белым зарубежным сайтам, делая трафик абсолютно неотличимым от обычного веб-серфинга для систем глубокого анализа пакетов (DPI).
-- **Hysteria 2 (QUIC / UDP):** Кастомный алгоритм контроля перегрузок на базе QUIC, обеспечивающий максимальную скорость даже при потере до 30% пакетов в нестабильных мобильных сетях.
-- **Tun2Socks & HEV:** Перехват трафика на уровне ядра операционной системы, предотвращающий любые утечки DNS и IPv6.
+#### 🛡️ 5. Protocols & Network Routing (Сетевые протоколы и маршрутизация)
+- **Протоколы:** **VLESS** (легковесный протокол без лишнего оверхеда), **Trojan**, **VMess**, **Shadowsocks-2022**.
+- **Высокоскоростной транспорт:** **Hysteria 2** (протокол на базе UDP/QUIC с кастомным контролем перегрузок для сетей с высокими потерями пакетов).
+- **Маскировка:** **XTLS / Reality** для обхода блокировок и противодействия активному зондированию (DPI).
+- **Маршрутизация:** Раздельное туннелирование (Split Tunneling), обход локальных сетей и доменные правила на базе GeoIP/GeoSite.
 
-#### [ 03.6 // OPS ] DevOps & Infrastructure
+#### 🛠️ 6. DevOps & Infrastructure (Инфраструктура и развёртывание)
 - **Окружение:** Linux (Ubuntu / Debian Server), Systemd юниты для надёжной работы фоновых служб.
 - **Контейнеризация:** Docker, Docker Compose для быстрой воспроизводимости и изолированного тестирования.
 - **Веб-сервер:** Nginx Reverse Proxy (SSL/TLS Let's Encrypt Certbot, HTTP/2, проксирование WebSockets и FastCGI).
 
 ---
 
-### [ 04 // HACKATHONS ] Competitive Engineering / Хакатоны
+### 🏆 Хакатоны и соревновательный опыт
 
-| Событие / Проект | Роль & Результат | Стек | Инженерное описание |
-| :--- | :--- | :--- | :--- |
-| 🥈 **Региональный хакатон**<br>*(Сайт-квиз & Мини-CRM)* | **2 МЕСТО** 🏆<br>`Solo Lead Dev` | `Python` `SQLite` `JS` `Tailwind` `HTML5` | Разработка интерактивной платформы-квиза для организации с внутренней системой учёта заявок (мини-CRM). Выступал единственным разработчиком в команде, координируя процесс с дизайнером и менеджером. Боевой опыт скоростной разработки и важных архитектурных выводов. |
-| 🥉 **Школьный хакатон**<br>**[Tactical Medic Rescue Site](https://github.com/nikolaevsaryal10-byte/tactical-medic-rescue-site)**<br>👉 [Живое демо](https://nikolaevsaryal10-byte.github.io/tactical-medic-rescue-site/) | **3 МЕСТО** 🏆<br>`Автор & Разработчик` | `HTML5` `CSS3` `JS` `WebP` `Optimization` | Интерактивный экспресс-справочник тактической медицины для бойцов и медиков в боевых условиях (навигация по 3 зонам: Красная, Жёлтая, Зелёная, triage ранений по анатомическим зонам). **Ключевой вызов:** работа в условиях крайне слабой связи (2G/EDGE). Вся графика пережата из JPEG в WebP, а код минимизирован — общий вес страницы со всеми схемами составил **всего ~6 МБ**! Один из любимых проектов. |
+| Проект & Событие | Роль & Результат | Стек | Описание и инженерные решения |
+|:---|:---|:---|:---|
+| 🥈 **Региональный хакатон**<br>*(Сайт-квиз & Мини-CRM)* | **2 место** 🏆<br>Solo Lead Developer | `Python`, `SQLite`, `JavaScript`, `Tailwind CSS`, `HTML5` | Разработка интерактивной платформы-квиза для организации с внутренней системой учёта заявок (мини-CRM). Выступал единственным разработчиком в команде, координируя процесс с дизайнером и менеджером. Боевой опыт скоростной разработки и важных архитектурных выводов. |
+| 🥉 **Школьный хакатон**<br>**[Tactical Medic Rescue Site](https://github.com/nikolaevsaryal10-byte/tactical-medic-rescue-site)**<br>👉 [Живое демо](https://nikolaevsaryal10-byte.github.io/tactical-medic-rescue-site/) | **3 место** 🏆<br>Автор и разработчик | `HTML5`, `CSS3`, `JavaScript`, `WebP`, `Optimization` | Интерактивный экспресс-справочник тактической медицины для бойцов и медиков в боевых условиях (навигация по 3 зонам: Красная, Жёлтая, Зелёная, triage ранений по анатомическим зонам). **Ключевой вызов:** работа в условиях крайне слабой связи (2G/EDGE). Вся графика пережата из JPEG в WebP, а код минимизирован — общий вес страницы со всеми схемами составил **всего ~6 МБ**! Один из любимых проектов. |
 
 ---
 
-### [ 05 // R&D ] Other Projects / Другие проекты
+### 🔬 Другие проекты и эксперименты
 
 - 👁️ **FaceID School Security System (Система биометрической идентификации)**  
   *Стек:* `Python`, `Computer Vision`, `Face Recognition`, `Web UI`  
@@ -181,41 +128,42 @@
 
 ---
 
-### [ 06 // ARSENAL ] Technology Matrix / Стек технологий
+### 💻 Стек технологий / Tech Arsenal
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,python,fastapi,go,c,androidstudio,tailwind,js,html,css,sqlite,docker,linux,bash,git,github&theme=dark" alt="Skills Wall" />
+  <img src="https://skillicons.dev/icons?i=kotlin,python,fastapi,go,c,androidstudio,tailwind,js,html,css,sqlite,docker,linux,bash,git,github" alt="Skills Wall" />
 </div>
 
 <br/>
 
-| Модуль | Технологии | Назначение |
-| :--- | :--- | :--- |
-| **Языки** | `Kotlin` `Python 3.11+` `Go` `C` `JavaScript (ES6+)` `Bash` `SQL` | Полный цикл: от низкоуровневых C/Go туннелей ядра до реактивного UI и бэкенда |
-| **Android** | `Android SDK 35` `Jetpack Compose` `Material 3` `VpnService` `Tun2Socks` `MMKV` | Нативная разработка высокопроизводительных VPN-клиентов |
-| **Backend** | `FastAPI` `Uvicorn ASGI` `SQLite (WAL mode)` `Pydantic v2` `RESTful APIs` | Высоконагруженные асинхронные REST-сервисы, фоновые демоны, потоковая телеметрия |
-| **Frontend** | `Tailwind CSS` `HTML5 Semantic` `Vanilla JS` `QRious` `Glassmorphism UI` | Отзывчивые интерфейсы, личный кабинет, админ-панель, генерация QR-кодов |
-| **Протоколы** | `VLESS` `XTLS / Reality` `Hysteria 2 (QUIC)` `Trojan` `Shadowsocks` `Xray-core` | Маскировка трафика от систем DPI, обход блокировок, оптимизация потерь пакетов |
-| **Безопасность**| `Argon2id` `AES-256-GCM` `HMAC-SHA256` `OAuth2 / Bearer` `54-ФЗ Фискализация` | Защита пользовательских данных, криптографическая проверка вебхуков, биллинг |
-| **DevOps** | `Docker` `Docker Compose` `Linux (Debian/Ubuntu)` `Systemd` `Nginx SSL` `Git CI/CD` | Изоляция сервисов, отказоустойчивость серверов, автоматический SSL-конвейер |
+| Категория | Технологии и инструменты |
+|:---|:---|
+| **Языки программирования** | `Kotlin`, `Python 3.11+`, `Go (Golang)`, `C`, `JavaScript (ES6+)`, `Bash / Shell`, `SQL` |
+| **Frontend & UI/UX** | `Tailwind CSS`, `HTML5 / Semantic Web`, `Vanilla JS`, `Jetpack Compose`, `Material Design 3` |
+| **Backend & APIs** | `FastAPI`, `Uvicorn (ASGI)`, `Pydantic v2`, `SQLite (WAL mode)`, `RESTful APIs`, `Webhooks` |
+| **Мобильная разработка** | `Android SDK`, `Android VpnService`, `Tun2Socks`, `MMKV`, `WorkManager`, `OkHttp3`, `Coroutines` |
+| **Сетевые протоколы & Ядра** | `Xray-core`, `Hysteria 2 (QUIC)`, `VLESS`, `Trojan`, `Shadowsocks`, `XTLS / Reality`, `HEV Tunnel` |
+| **Безопасность & Криптография** | `Argon2id`, `AES-256-GCM`, `HMAC-SHA256`, `OAuth2 / Bearer Tokens`, `SSL / TLS 1.3` |
+| **Платёжные интеграции** | `YooKassa API`, `Фискализация 54-ФЗ / 422-ФЗ`, `Вебхуки с цифровой подписью` |
+| **DevOps & Системное администрирование** | `Docker`, `Docker Compose`, `Linux (Debian/Ubuntu)`, `Systemd`, `Nginx`, `Git / GitHub Actions` |
 
 ---
 
-### [ 07 // DEV_SETUP ] Hardware & Environment / Сетап
+### 🛠️ Мой сетап / Dev Setup & Workflow
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/OS-WINDOWS%20%7C%20OMARCHY%20LINUX-000000?style=flat-square&logo=linux&logoColor=3d7eff&labelColor=0a0a0a" alt="OS" />
+<img src="https://img.shields.io/badge/OS-Windows%20%7C%20Omarchy%20Linux-0078D6?style=for-the-badge&logo=linux&logoColor=white" alt="OS" />
 &nbsp;
-<img src="https://img.shields.io/badge/IDE-ANDROID%20STUDIO%20%7C%20VS%20CODE-000000?style=flat-square&logo=androidstudio&logoColor=3d7eff&labelColor=0a0a0a" alt="IDEs" />
+<img src="https://img.shields.io/badge/IDE-Android%20Studio%20%7C%20VS%20Code-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt="IDEs" />
 &nbsp;
-<img src="https://img.shields.io/badge/TOOLS-DOCKER%20%7C%20GIT%20%7C%20POSTMAN%20%7C%20TERMIUS-000000?style=flat-square&logo=docker&logoColor=3d7eff&labelColor=0a0a0a" alt="Tools" />
+<img src="https://img.shields.io/badge/Tools-Docker%20%7C%20Git%20%7C%20Postman%20%7C%20Termius-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Tools" />
 
 </div>
 
 ---
 
-### [ 08 // TELEMETRY ] Activity & Languages / Аналитика
+### 📊 Активность и используемые языки / GitHub Analytics
 
 <div align="center">
   <table>
@@ -236,20 +184,20 @@
 
 ---
 
-### [ 09 // COMM_LINK ] Secure Communication / Связь
+### 🤝 Connect & Socials / Связь
 
 <div align="center">
 
 <a href="https://github.com/nikolaevsaryal10-byte">
-  <img src="https://img.shields.io/badge/GITHUB-nikolaevsaryal10--byte-000000?style=flat-square&logo=github&logoColor=ffffff&labelColor=0a0a0a" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-nikolaevsaryal10--byte-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
-&nbsp;&nbsp;
+&nbsp;
 <a href="https://t.me/AltzGamerz">
-  <img src="https://img.shields.io/badge/TELEGRAM-%40AltzGamerz-000000?style=flat-square&logo=telegram&logoColor=3d7eff&labelColor=0a0a0a" alt="Telegram" />
+  <img src="https://img.shields.io/badge/Telegram-@AltzGamerz-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
 </a>
-&nbsp;&nbsp;
+&nbsp;
 <a href="mailto:nikolaevsaryal10-byte@users.noreply.github.com">
-  <img src="https://img.shields.io/badge/EMAIL-CONTACT%20ME-000000?style=flat-square&logo=gmail&logoColor=ff4d4d&labelColor=0a0a0a" alt="Email" />
+  <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 
 <br/><br/>
@@ -257,10 +205,11 @@
 <!-- Wave Goodbye GIF -->
 <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZGdhdHBzZnpwZnd0aGI0MGJla3dzbXJpeDYzeDVjaGo5aDJteWF2cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yALcFbrKshfoY/giphy.gif" width="220" alt="Wave Goodbye" />
 
-<br/><br/>
+</div>
 
-<text style="color: #888888; font-family: 'JetBrains Mono', Consolas, monospace; font-size: 11px; letter-spacing: 2px;">
-  [ 0x73F787 ] // END TRANSMISSION // ROOT PRIVILEGES // ALL SYSTEMS VERIFIED
-</text>
+<br/>
 
+<div align="center">
+<!-- Footer Wave Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,36&height=120&section=footer" width="100%" alt="Footer" />
 </div>
