@@ -29,14 +29,24 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IKFVtPf8jP6KJH16dB/giphy.gif" width="480" alt="Anime Vibe" />
 </p>
 
-- 🛡️ **Creator & Lead Architect of [TabisVPN](https://github.com/nikolaevsaryal10-byte/tabisvpn)** — high-speed, censorship-resistant VPN ecosystem with Android, Windows, Web, and asynchronous Backend layers.
-- ⚡ **Full-Stack & Systems Focus:** Modern asynchronous backends (**Python / FastAPI**), reactive mobile development (**Kotlin / Jetpack Compose**), low-level network tunnels (**Go Xray-core / C HEV tunnel**), and polished web clients (**Tailwind CSS / ES6+**).
-- 🔐 **Security & Protocols:** Censorship circumvention, VLESS / Reality / XTLS, Hysteria 2 (QUIC), Tun2Socks routing, Argon2id & AES-256 cryptography, 54-FZ payment billing integrations.
-- 📍 **GitHub:** [@nikolaevsaryal10-byte](https://github.com/nikolaevsaryal10-byte) &nbsp;|&nbsp; **Handle:** `AltzGamerz`
+- 🛡️ **Создатель и ведущий архитектор [TabisVPN](https://github.com/nikolaevsaryal10-byte/tabisvpn)** — высокоскоростной экосистемы устойчивого к блокировкам сетевого туннелирования (Android, Windows, Web, асинхронный Backend).
+- ⚡ **Специализация:** Высоконагруженные асинхронные бэкенды (**Python / FastAPI**), нативная мобильная разработка (**Kotlin / Jetpack Compose**), низкоуровневые сетевые ядра (**Go Xray-core / C HEV tunnel**) и современные веб-интерфейсы (**Tailwind CSS / ES6+**).
+- 🔐 **Фокус на сетевой безопасности:** Протоколы обхода цензуры и DPI-фильтрации, VLESS / Reality / XTLS, Hysteria 2 (QUIC), Tun2Socks-маршрутизация ядра, криптография Argon2id и AES-256, биллинг с фискализацией чеков.
+- 📍 **GitHub:** [@nikolaevsaryal10-byte](https://github.com/nikolaevsaryal10-byte) &nbsp;|&nbsp; **Никнейм:** `AltzGamerz`
 
 ---
 
-### 🚀 Featured Project / Флагманский проект: [TabisVPN](https://github.com/nikolaevsaryal10-byte/tabisvpn)
+### 🌱 Сейчас изучаю / Currently Learning
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Currently%20Learning-React%20%26%20Modern%20Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="Learning React" />
+</p>
+
+> Активно погружаюсь в **React** и компонентную веб-архитектуру, расширяя кругозор от нативного мобильного Compose и Vanilla JS до полноценного SPA-стека.
+
+---
+
+### 🚀 Флагманский проект: [TabisVPN](https://github.com/nikolaevsaryal10-byte/tabisvpn)
 
 <div align="center">
   <img src="https://img.shields.io/badge/Android-Kotlin%202.x%20%7C%20Compose-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
@@ -100,7 +110,25 @@
 
 ---
 
-### 💻 Full Technology Stack / Полный стек технологий
+### 🏆 Хакатоны и соревновательный опыт
+
+| Проект & Событие | Роль & Результат | Стек | Описание и инженерные решения |
+|:---|:---|:---|:---|
+| 🥈 **Региональный хакатон**<br>*(Сайт-квиз & Мини-CRM)* | **2 место** 🏆<br>Solo Lead Developer | `Python`, `SQLite`, `JavaScript`, `Tailwind CSS`, `HTML5` | Разработка интерактивной платформы-квиза для организации с внутренней системой учёта заявок (мини-CRM). Выступал единственным разработчиком в команде, координируя процесс с дизайнером и менеджером. Боевой опыт скоростной разработки и важных архитектурных выводов. |
+| 🥉 **Школьный хакатон**<br>**[Tactical Medic Rescue Site](https://github.com/nikolaevsaryal10-byte/tactical-medic-rescue-site)**<br>👉 [Живое демо](https://nikolaevsaryal10-byte.github.io/tactical-medic-rescue-site/) | **3 место** 🏆<br>Автор и разработчик | `HTML5`, `CSS3`, `JavaScript`, `WebP`, `Optimization` | Интерактивный экспресс-справочник тактической медицины для бойцов и медиков в боевых условиях (навигация по 3 зонам: Красная, Жёлтая, Зелёная, triage ранений по анатомическим зонам). **Ключевой вызов:** работа в условиях крайне слабой связи (2G/EDGE). Вся графика пережата из JPEG в WebP, а код минимизирован — общий вес страницы со всеми схемами составил **всего ~6 МБ**! Один из любимых проектов. |
+
+---
+
+### 🔬 Другие проекты и эксперименты
+
+- 👁️ **FaceID School Security System (Система биометрической идентификации)**  
+  *Стек:* `Python`, `Computer Vision`, `Face Recognition`, `Web UI`  
+  Прототип бесконтактной верификации учащихся на школьных турникетах (замена физических карт) с детекцией посторонних лиц и интеграцией базы розыска для оперативного вызова служб безопасности.  
+  *Инженерный вызов:* Столкнулся с проблемой распознавания азиатских лиц из-за смещения обучающих выборок стандартных моделей, что потребовало подбора специализированных моделей эмбеддингов и калибровки векторов признаков.
+
+---
+
+### 💻 Стек технологий / Tech Arsenal
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=kotlin,python,fastapi,go,c,androidstudio,tailwind,js,html,css,sqlite,docker,linux,bash,git,github" alt="Skills Wall" />
@@ -121,12 +149,37 @@
 
 ---
 
-### 📊 GitHub Activity & Stats
+### 🛠️ Мой сетап / Dev Setup & Workflow
 
 <div align="center">
-  <a href="https://github.com/nikolaevsaryal10-byte">
-    <img src="https://streak-stats.demolab.com/?user=nikolaevsaryal10-byte&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak Stats" />
-  </a>
+
+<img src="https://img.shields.io/badge/OS-Windows%20%7C%20Omarchy%20Linux-0078D6?style=for-the-badge&logo=linux&logoColor=white" alt="OS" />
+&nbsp;
+<img src="https://img.shields.io/badge/IDE-Android%20Studio%20%7C%20VS%20Code-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt="IDEs" />
+&nbsp;
+<img src="https://img.shields.io/badge/Tools-Docker%20%7C%20Git%20%7C%20Postman%20%7C%20Termius-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Tools" />
+
+</div>
+
+---
+
+### 📊 Активность и используемые языки / GitHub Analytics
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://github.com/nikolaevsaryal10-byte">
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nikolaevsaryal10-byte&theme=tokyonight" alt="Top Languages" />
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://github.com/nikolaevsaryal10-byte">
+          <img src="https://streak-stats.demolab.com/?user=nikolaevsaryal10-byte&theme=tokyonight&hide_border=true&background=1a1b27" alt="GitHub Streak Stats" />
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
