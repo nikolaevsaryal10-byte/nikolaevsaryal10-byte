@@ -25,6 +25,10 @@
 
 > *"Building high-throughput network architectures, privacy-first software, and resilient cross-platform systems."*
 
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IKFVtPf8jP6KJH16dB/giphy.gif" width="480" alt="Anime Vibe" />
+</p>
+
 - 🛡️ **Creator & Lead Architect of [TabisVPN](https://github.com/nikolaevsaryal10-byte/tabisvpn)** — high-speed, censorship-resistant VPN ecosystem with Android, Windows, Web, and asynchronous Backend layers.
 - ⚡ **Full-Stack & Systems Focus:** Modern asynchronous backends (**Python / FastAPI**), reactive mobile development (**Kotlin / Jetpack Compose**), low-level network tunnels (**Go Xray-core / C HEV tunnel**), and polished web clients (**Tailwind CSS / ES6+**).
 - 🔐 **Security & Protocols:** Censorship circumvention, VLESS / Reality / XTLS, Hysteria 2 (QUIC), Tun2Socks routing, Argon2id & AES-256 cryptography, 54-FZ payment billing integrations.
@@ -45,6 +49,10 @@
 <br/>
 
 **TabisVPN (ТАБЫС)** — это полноценная высоконагруженная экосистема защищённого сетевого туннелирования нового поколения. Проект объединяет нативный мобильный клиент, десктопное приложение, асинхронный бэкенд с автоматизированным биллингом и интерактивные веб-порталы.
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1448TKNMMg4BFu/giphy.gif" width="480" alt="Anime Project Vibe" />
+</p>
 
 #### 🌐 1. Frontend & Web Touchpoints (Фронтенд и веб-интерфейсы)
 - **Технологический стек:** Modern HTML5, Tailwind CSS (с плагинами container-queries и custom forms), Vanilla JavaScript (ES6+ async/await, Fetch API), Google Fonts (*Inter*, *JetBrains Mono*, *Plus Jakarta Sans*, *Material Symbols*), QRious (динамическая генерация QR-кодов).
@@ -138,6 +146,11 @@
 <a href="mailto:nikolaevsaryal10-byte@users.noreply.github.com">
   <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
+
+<br/><br/>
+
+<!-- Wave Goodbye GIF -->
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZGdhdHBzZnpwZnd0aGI0MGJla3dzbXJpeDYzeDVjaGo5aDJteWF2cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yALcFbrKshfoY/giphy.gif" width="220" alt="Wave Goodbye" />
 
 </div>
 
