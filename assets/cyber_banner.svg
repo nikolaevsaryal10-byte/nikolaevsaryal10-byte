@@ -1,169 +1,201 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" width="100%" height="100%">
   <defs>
-    <!-- Background Gradients -->
-    <linearGradient id="cyber-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05060b"/>
-      <stop offset="40%" stop-color="#090d18"/>
-      <stop offset="70%" stop-color="#070a14"/>
-      <stop offset="100%" stop-color="#040509"/>
-    </linearGradient>
+    <style>
+      @keyframes glitch-anim-1 {
+        0%, 100% { transform: translate(0, 0); }
+        12% { transform: translate(-3px, 1px); }
+        14% { transform: translate(5px, -2px); }
+        16% { transform: translate(0, 0); }
+        42% { transform: translate(6px, 2px); }
+        44% { transform: translate(-4px, -1px); }
+        46% { transform: translate(0, 0); }
+        68% { transform: translate(-5px, -2px); }
+        70% { transform: translate(3px, 1px); }
+        72% { transform: translate(0, 0); }
+        92% { transform: translate(4px, -1px); }
+        94% { transform: translate(0, 0); }
+      }
 
-    <!-- Neon Glow Gradients -->
-    <linearGradient id="neon-cyan-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f0ff"/>
-      <stop offset="100%" stop-color="#7000ff"/>
-    </linearGradient>
+      @keyframes glitch-anim-2 {
+        0%, 100% { opacity: 0; transform: translate(0, 0); }
+        12% { opacity: 0.9; transform: translate(4px, -2px); }
+        14% { opacity: 0.8; transform: translate(-6px, 1px); }
+        16% { opacity: 0; transform: translate(0, 0); }
+        42% { opacity: 0.85; transform: translate(-5px, -1px); }
+        44% { opacity: 0.9; transform: translate(5px, 2px); }
+        46% { opacity: 0; transform: translate(0, 0); }
+        68% { opacity: 0.9; transform: translate(5px, 2px); }
+        70% { opacity: 0.8; transform: translate(-3px, -1px); }
+        72% { opacity: 0; transform: translate(0, 0); }
+      }
 
-    <linearGradient id="neon-pink-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0055"/>
-      <stop offset="100%" stop-color="#ff00aa"/>
-    </linearGradient>
+      @keyframes glitch-slice-1 {
+        0%, 100% { opacity: 0; transform: scaleX(0); }
+        12% { opacity: 0.9; transform: scaleX(1); }
+        16% { opacity: 0; transform: scaleX(0); }
+        42% { opacity: 0.95; transform: scaleX(1); }
+        46% { opacity: 0; transform: scaleX(0); }
+        68% { opacity: 0.85; transform: scaleX(1); }
+        72% { opacity: 0; transform: scaleX(0); }
+      }
 
-    <linearGradient id="laser-line" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#00f0ff" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#ff0055" stop-opacity="1"/>
-      <stop offset="75%" stop-color="#00f0ff" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
-    </linearGradient>
+      @keyframes glitch-slice-2 {
+        0%, 100% { opacity: 0; }
+        13% { opacity: 0.8; transform: translate(8px, 0); }
+        15% { opacity: 0; }
+        43% { opacity: 0.9; transform: translate(-10px, 0); }
+        45% { opacity: 0; }
+      }
 
-    <!-- Glow Filters -->
-    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#00f0ff" flood-opacity="0.9"/>
-      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#00f0ff" flood-opacity="0.5"/>
-    </filter>
+      @keyframes cursor-blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
 
-    <filter id="glow-pink" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#ff0055" flood-opacity="0.9"/>
-      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#ff0055" flood-opacity="0.5"/>
-    </filter>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+      .kanji { font-family: 'Noto Sans SC', 'SimHei', 'Microsoft YaHei', sans-serif; font-weight: 900; }
+      .title-font { font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; letter-spacing: 9px; text-transform: uppercase; }
+      .glitch-1 { animation: glitch-anim-1 3.2s infinite ease-in-out; }
+      .glitch-2 { animation: glitch-anim-2 3.2s infinite ease-in-out; }
+      .slice-bar-1 { animation: glitch-slice-1 3.2s infinite; transform-origin: left; }
+      .slice-bar-2 { animation: glitch-slice-2 3.2s infinite; }
+      .blink { animation: cursor-blink 0.8s infinite; }
+    </style>
 
-    <!-- Scanline Pattern -->
-    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.2" opacity="0.4"/>
+    <!-- Clip paths for glitch slice cuts -->
+    <clipPath id="cut-top">
+      <rect x="0" y="0" width="960" height="118"/>
+    </clipPath>
+    <clipPath id="cut-mid">
+      <rect x="0" y="105" width="960" height="30"/>
+    </clipPath>
+    <clipPath id="cut-bottom">
+      <rect x="0" y="130" width="960" height="120"/>
+    </clipPath>
+
+    <!-- High-res dot grid pattern -->
+    <pattern id="dot-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#ffffff" fill-opacity="0.15"/>
     </pattern>
 
-    <!-- Grid Pattern -->
-    <pattern id="cyber-grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f0ff" stroke-width="0.75" stroke-opacity="0.08"/>
+    <!-- Fine horizontal scanline pattern -->
+    <pattern id="scanlines" width="100" height="3" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.06"/>
     </pattern>
   </defs>
 
-  <style>
-    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Pro Text', Consolas, monospace; }
-    .chinese { font-family: 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', sans-serif; font-weight: 800; }
-    .title-glitch { font-family: 'Impact', 'Arial Black', sans-serif; font-weight: 900; letter-spacing: 7px; text-transform: uppercase; }
-  </style>
+  <!-- Background Base -->
+  <rect width="960" height="250" fill="#070707"/>
+  <rect width="960" height="250" fill="url(#dot-grid)"/>
+  <rect width="960" height="250" fill="url(#scanlines)"/>
 
-  <!-- Background -->
-  <rect width="1000" height="280" fill="url(#cyber-bg)" rx="12"/>
-  <rect width="1000" height="280" fill="url(#cyber-grid)" rx="12"/>
-  <rect width="1000" height="280" fill="url(#scanlines)" rx="12"/>
+  <!-- Brutalist Outer Frames -->
+  <rect x="14" y="14" width="932" height="222" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.85"/>
+  <rect x="19" y="19" width="922" height="212" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.3"/>
 
-  <!-- Border & Frame HUD -->
-  <rect x="12" y="12" width="976" height="256" fill="none" stroke="#00f0ff" stroke-width="1" stroke-opacity="0.3" rx="8"/>
-  <rect x="16" y="16" width="968" height="248" fill="none" stroke="#ff0055" stroke-width="0.5" stroke-opacity="0.2" rx="6"/>
+  <!-- Heavy Corner Blocks -->
+  <rect x="14" y="14" width="16" height="4" fill="#ffffff"/>
+  <rect x="14" y="14" width="4" height="16" fill="#ffffff"/>
+  <rect x="930" y="14" width="16" height="4" fill="#ffffff"/>
+  <rect x="942" y="14" width="4" height="16" fill="#ffffff"/>
+  <rect x="14" y="232" width="16" height="4" fill="#ffffff"/>
+  <rect x="14" y="220" width="4" height="16" fill="#ffffff"/>
+  <rect x="930" y="232" width="16" height="4" fill="#ffffff"/>
+  <rect x="942" y="220" width="4" height="16" fill="#ffffff"/>
 
-  <!-- Corner Brackets (HUD Tech) -->
-  <!-- Top Left -->
-  <path d="M 12 40 L 12 12 L 40 12" fill="none" stroke="#00f0ff" stroke-width="3" filter="url(#glow-cyan)"/>
-  <rect x="18" y="18" width="4" height="4" fill="#00f0ff"/>
-  <!-- Top Right -->
-  <path d="M 988 40 L 988 12 L 960 12" fill="none" stroke="#00f0ff" stroke-width="3" filter="url(#glow-cyan)"/>
-  <rect x="978" y="18" width="4" height="4" fill="#00f0ff"/>
-  <!-- Bottom Left -->
-  <path d="M 12 240 L 12 268 L 40 268" fill="none" stroke="#ff0055" stroke-width="3" filter="url(#glow-pink)"/>
-  <rect x="18" y="258" width="4" height="4" fill="#ff0055"/>
-  <!-- Bottom Right -->
-  <path d="M 988 240 L 988 268 L 960 268" fill="none" stroke="#ff0055" stroke-width="3" filter="url(#glow-pink)"/>
-  <rect x="978" y="258" width="4" height="4" fill="#ff0055"/>
-
-  <!-- Top System Telemetry Bar -->
-  <text x="35" y="34" class="mono" font-size="11" fill="#00f0ff" opacity="0.8" letter-spacing="1">
-    SYS_ID: 0x73F7 // LOC: 31°13'N 121°28'E [NEO-SHANGHAI GRID] // STATUS: UNRESTRICTED
+  <!-- Top Brutalist Header Line -->
+  <line x1="14" y1="42" x2="946" y2="42" stroke="#ffffff" stroke-width="1" stroke-opacity="0.4"/>
+  <rect x="35" y="22" width="8" height="8" fill="#ffffff"/>
+  <text x="50" y="32" class="mono" font-size="11" fill="#ffffff" letter-spacing="2" font-weight="700">
+    SYSTEM_SPEC // 0x73F7 // ALIAS: @nikolaevsaryal10-byte
   </text>
-  <text x="965" y="34" text-anchor="end" class="mono" font-size="11" fill="#ff0055" opacity="0.9" letter-spacing="1">
-    SEC_LVL: 9 // CIPHER: QUANTUM-AES256
+  <text x="925" y="32" text-anchor="end" class="mono kanji" font-size="11" fill="#ffffff" letter-spacing="2" opacity="0.8">
+    「 幽灵协议 」 SEC_LEVEL: 9 // STATUS: OPERATIONAL
   </text>
-  <line x1="35" y1="42" x2="965" y2="42" stroke="#00f0ff" stroke-width="0.75" stroke-opacity="0.25"/>
 
-  <!-- Left Side: Chinese Neon Vertical Signs -->
-  <g transform="translate(48, 70)">
-    <!-- Neon Sign Box 1 -->
-    <rect x="-8" y="0" width="34" height="110" fill="#ff0055" fill-opacity="0.07" stroke="#ff0055" stroke-opacity="0.4" rx="4"/>
-    <text x="9" y="24" class="chinese" font-size="18" fill="#ff0055" filter="url(#glow-pink)" text-anchor="middle">赛</text>
-    <text x="9" y="50" class="chinese" font-size="18" fill="#ff0055" filter="url(#glow-pink)" text-anchor="middle">博</text>
-    <text x="9" y="76" class="chinese" font-size="18" fill="#ff0055" filter="url(#glow-pink)" text-anchor="middle">朋</text>
-    <text x="9" y="102" class="chinese" font-size="18" fill="#ff0055" filter="url(#glow-pink)" text-anchor="middle">克</text>
+  <!-- Left Brutalist Inverted Stamps -->
+  <g transform="translate(45, 66)">
+    <!-- White Box, Black Text -->
+    <rect x="0" y="0" width="36" height="36" fill="#ffffff"/>
+    <text x="18" y="25" class="kanji" font-size="20" fill="#000000" text-anchor="middle">幽</text>
+
+    <!-- Black Box with White Outline -->
+    <rect x="0" y="44" width="36" height="36" fill="#070707" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="18" y="69" class="kanji" font-size="20" fill="#ffffff" text-anchor="middle">灵</text>
+
+    <!-- Small Coordinate Stamp -->
+    <text x="18" y="104" class="mono" font-size="9" fill="#888888" text-anchor="middle" letter-spacing="1">0x01</text>
   </g>
 
-  <g transform="translate(90, 70)">
-    <!-- Neon Sign Box 2 -->
-    <rect x="-8" y="0" width="34" height="110" fill="#00f0ff" fill-opacity="0.07" stroke="#00f0ff" stroke-opacity="0.4" rx="4"/>
-    <text x="9" y="24" class="chinese" font-size="18" fill="#00f0ff" filter="url(#glow-cyan)" text-anchor="middle">幽</text>
-    <text x="9" y="50" class="chinese" font-size="18" fill="#00f0ff" filter="url(#glow-cyan)" text-anchor="middle">灵</text>
-    <text x="9" y="76" class="chinese" font-size="18" fill="#00f0ff" filter="url(#glow-cyan)" text-anchor="middle">协</text>
-    <text x="9" y="102" class="chinese" font-size="18" fill="#00f0ff" filter="url(#glow-cyan)" text-anchor="middle">议</text>
+  <!-- Right Brutalist Inverted Stamps -->
+  <g transform="translate(879, 66)">
+    <!-- Black Box with White Outline -->
+    <rect x="0" y="0" width="36" height="36" fill="#070707" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="18" y="25" class="kanji" font-size="20" fill="#ffffff" text-anchor="middle">隐</text>
+
+    <!-- White Box, Black Text -->
+    <rect x="0" y="44" width="36" height="36" fill="#ffffff"/>
+    <text x="18" y="69" class="kanji" font-size="20" fill="#000000" text-anchor="middle">秘</text>
+
+    <!-- Small Coordinate Stamp -->
+    <text x="18" y="104" class="mono" font-size="9" fill="#888888" text-anchor="middle" letter-spacing="1">0xFF</text>
   </g>
 
-  <!-- Right Side: Chinese Neon Vertical Signs -->
-  <g transform="translate(876, 70)">
-    <!-- Neon Sign Box 3 -->
-    <rect x="-8" y="0" width="34" height="110" fill="#00f0ff" fill-opacity="0.07" stroke="#00f0ff" stroke-opacity="0.4" rx="4"/>
-    <text x="9" y="24" class="chinese" font-size="18" fill="#00f0ff" filter="url(#glow-cyan)" text-anchor="middle">未</text>
-    <text x="9" y="50" class="chinese" font-size="18" fill="#00f0ff" filter="url(#glow-cyan)" text-anchor="middle">来</text>
-    <text x="9" y="76" class="chinese" font-size="18" fill="#00f0ff" filter="url(#glow-cyan)" text-anchor="middle">终</text>
-    <text x="9" y="102" class="chinese" font-size="18" fill="#00f0ff" filter="url(#glow-cyan)" text-anchor="middle">端</text>
+  <!-- Center Glitch Typography -->
+  <g transform="translate(480, 126)">
+    <!-- Base Sharp White Text -->
+    <text x="0" y="0" class="title-font" font-size="62" fill="#ffffff" text-anchor="middle">ALTZGAMERZ</text>
+
+    <!-- Animated Glitch Layer 1 (Mid/Top Slice Displaced) -->
+    <g class="glitch-1" clip-path="url(#cut-top)">
+      <text x="0" y="0" class="title-font" font-size="62" fill="#e0e0e0" text-anchor="middle" opacity="0.95">ALTZGAMERZ</text>
+    </g>
+
+    <!-- Animated Glitch Layer 2 (Bottom Slice Displaced) -->
+    <g class="glitch-2" clip-path="url(#cut-bottom)">
+      <text x="0" y="0" class="title-font" font-size="62" fill="#ffffff" text-anchor="middle">ALTZGAMERZ</text>
+    </g>
+
+    <!-- Animated Cut Mid Slice (Jitters Horizontally) -->
+    <g class="slice-bar-2" clip-path="url(#cut-mid)">
+      <text x="0" y="0" class="title-font" font-size="62" fill="#ffffff" text-anchor="middle">ALTZGAMERZ</text>
+    </g>
   </g>
 
-  <g transform="translate(918, 70)">
-    <!-- Neon Sign Box 4 -->
-    <rect x="-8" y="0" width="34" height="110" fill="#ff0055" fill-opacity="0.07" stroke="#ff0055" stroke-opacity="0.4" rx="4"/>
-    <text x="9" y="24" class="chinese" font-size="18" fill="#ff0055" filter="url(#glow-pink)" text-anchor="middle">极</text>
-    <text x="9" y="50" class="chinese" font-size="18" fill="#ff0055" filter="url(#glow-pink)" text-anchor="middle">客</text>
-    <text x="9" y="76" class="chinese" font-size="18" fill="#ff0055" filter="url(#glow-pink)" text-anchor="middle">核</text>
-    <text x="9" y="102" class="chinese" font-size="18" fill="#ff0055" filter="url(#glow-pink)" text-anchor="middle">心</text>
-  </g>
+  <!-- Horizontal Glitch Bars Cutting Across -->
+  <rect x="220" y="112" width="520" height="2" fill="#ffffff" class="slice-bar-1"/>
+  <rect x="310" y="132" width="340" height="3" fill="#ffffff" class="slice-bar-1"/>
+  <rect x="420" y="98" width="180" height="1.5" fill="#ffffff" class="slice-bar-1"/>
 
-  <!-- Centerpiece: Glitch & Neon Cyberpunk Logo -->
-  <g transform="translate(500, 120)">
-    <!-- Background Chromatic Aberration Shadows -->
-    <text x="-3" y="1" class="title-glitch" font-size="64" fill="#ff0055" text-anchor="middle" opacity="0.85" filter="url(#glow-pink)">ALTZGAMERZ</text>
-    <text x="3" y="-1" class="title-glitch" font-size="64" fill="#00f0ff" text-anchor="middle" opacity="0.85" filter="url(#glow-cyan)">ALTZGAMERZ</text>
-    <!-- Foreground Pure Text -->
-    <text x="0" y="0" class="title-glitch" font-size="64" fill="#ffffff" text-anchor="middle">ALTZGAMERZ</text>
-  </g>
-
-  <!-- Subtitle with Hanzi & Cyberpunk Tags -->
-  <g transform="translate(500, 160)">
-    <text x="0" y="0" class="chinese mono" font-size="15" fill="#00f0ff" text-anchor="middle" letter-spacing="2" filter="url(#glow-cyan)">
-      「 赛博网络架构师 」 FULL-STACK NETRUNNER • CREATOR OF TABISVPN
+  <!-- Subtitle Line with Kanji & Clean Technical Hierarchy -->
+  <g transform="translate(480, 168)">
+    <text x="0" y="0" class="mono kanji" font-size="13" fill="#ffffff" text-anchor="middle" letter-spacing="3" font-weight="700">
+      FULL-STACK &amp; SYSTEMS ARCHITECT // TABISVPN ARCHITECT // 「 极客 」
     </text>
-    <text x="0" y="22" class="mono" font-size="12" fill="#d0d5e2" text-anchor="middle" letter-spacing="3" opacity="0.85">
-      KOTLIN COMPOSE // FASTAPI // GO XRAY // C HEV // TAILWIND
+    <text x="0" y="19" class="mono" font-size="11" fill="#888888" text-anchor="middle" letter-spacing="3">
+      KOTLIN COMPOSE • FASTAPI • GO XRAY • C HEV • TAILWIND
     </text>
   </g>
 
-  <!-- Central Laser Divider Line -->
-  <line x1="160" y1="198" x2="840" y2="198" stroke="url(#laser-line)" stroke-width="2"/>
+  <!-- Bottom Divider Line -->
+  <line x1="14" y1="205" x2="946" y2="205" stroke="#ffffff" stroke-width="1" stroke-opacity="0.4"/>
 
-  <!-- Futuristic Bottom Telemetry & Status Badges -->
-  <g transform="translate(500, 235)">
-    <!-- Telemetry status nodes -->
-    <text x="-320" y="0" class="mono" font-size="11" fill="#00ff9f" font-weight="600" text-anchor="middle">
-      <tspan fill="#00ff9f">●</tspan> 核心状态: ONLINE
+  <!-- Bottom Terminal Status Bar -->
+  <g transform="translate(480, 224)">
+    <text x="-430" y="0" class="mono" font-size="10" fill="#ffffff" font-weight="700">
+      [ CORE: ACTIVE ]
     </text>
-    <text x="-160" y="0" class="mono" font-size="11" fill="#00f0ff" font-weight="600" text-anchor="middle">
-      ◈ 隐秘隧道: VLESS / REALITY
+    <text x="-270" y="0" class="mono kanji" font-size="10" fill="#cccccc">
+      [ 协议: VLESS / HYSTERIA_2 ]
     </text>
-    <text x="20" y="0" class="mono" font-size="11" fill="#ff00aa" font-weight="600" text-anchor="middle">
-      ▲ 高速传输: HYSTERIA_2 (QUIC)
+    <text x="-40" y="0" class="mono" font-size="10" fill="#ffffff">
+      [ TUNNEL: HEV SOCKS5 ]
     </text>
-    <text x="200" y="0" class="mono" font-size="11" fill="#ffb700" font-weight="600" text-anchor="middle">
-      ■ 底层穿透: HEV TUN2SOCKS
+    <text x="170" y="0" class="mono kanji" font-size="10" fill="#cccccc">
+      [ 状态: 隐秘穿透 ]
     </text>
-    <text x="335" y="0" class="mono" font-size="11" fill="#00ff9f" font-weight="600" text-anchor="middle">
-      ◆ 追踪状态: UNTRACEABLE
+    <text x="360" y="0" class="mono" font-size="10" fill="#ffffff" font-weight="700">
+      UNRESTRICTED<tspan class="blink">_</tspan>
     </text>
   </g>
 </svg>
