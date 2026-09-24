@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,36&height=220&section=header&text=AltzGamerz&fontSize=56&fontAlignY=36&desc=Full-Stack%20%E2%80%A2%20Systems%20and%20Network%20Engineer%20%E2%80%A2%20TabisVPN%20Creator&descSize=18&descAlignY=62" width="100%" alt="AltzGamerz Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,36&height=220&section=header&text=AltzGamerz&fontSize=56&fontAlignY=36&desc=TabisVPN%20%E2%80%A2%20Hackathons%20%E2%80%A2%20Projects&descSize=18&descAlignY=62" width="100%" alt="AltzGamerz Header" />
 
 <!-- Typing Dynamic Subtitle -->
 <a href="https://github.com/nikolaevsaryal10-byte">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+AltzGamerz+(@nikolaevsaryal10-byte)+%F0%9F%91%8B;Full-Stack+and+Systems+Developer;Architect+and+Creator+of+TabisVPN;FastAPI+%E2%80%A2+Kotlin+Compose+%E2%80%A2+Go+%E2%80%A2+Tailwind" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+AltzGamerz+(@nikolaevsaryal10-byte)+%F0%9F%91%8B;TabisVPN+Creator;Hackathon+Participant" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -13,7 +13,6 @@
 <!-- Profile Badges Bar -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=nikolaevsaryal10-byte&color=009688&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/Focus-High--Performance%20Networks-blueviolet?style=for-the-badge&logo=wireguard&logoColor=white" alt="Focus" />
   <img src="https://img.shields.io/badge/Flagship-TabisVPN-0061A4?style=for-the-badge&logo=shield&logoColor=white" alt="Project" />
 </p>
 
@@ -21,28 +20,13 @@
 
 ---
 
-### 👨‍💻 About Me / Обо мне
-
-> *"Building high-throughput network architectures, privacy-first software, and resilient cross-platform systems."*
+### 👨‍💻 Info / Обо мне
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IKFVtPf8jP6KJH16dB/giphy.gif" width="480" alt="Anime Vibe" />
 </p>
 
-- 🛡️ **Создатель и ведущий архитектор [TabisVPN](https://github.com/nikolaevsaryal10-byte/tabisvpn)** — высокоскоростной экосистемы устойчивого к блокировкам сетевого туннелирования (Android, Windows, Web, асинхронный Backend).
-- ⚡ **Специализация:** Высоконагруженные асинхронные бэкенды (**Python / FastAPI**), нативная мобильная разработка (**Kotlin / Jetpack Compose**), низкоуровневые сетевые ядра (**Go Xray-core / C HEV tunnel**) и современные веб-интерфейсы (**Tailwind CSS / ES6+**).
-- 🔐 **Фокус на сетевой безопасности:** Протоколы обхода цензуры и DPI-фильтрации, VLESS / Reality / XTLS, Hysteria 2 (QUIC), Tun2Socks-маршрутизация ядра, криптография Argon2id и AES-256, биллинг с фискализацией чеков.
 - 📍 **GitHub:** [@nikolaevsaryal10-byte](https://github.com/nikolaevsaryal10-byte) &nbsp;|&nbsp; **Никнейм:** `AltzGamerz`
-
----
-
-### 🌱 Сейчас изучаю / Currently Learning
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Currently%20Learning-React%20%26%20Modern%20Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="Learning React" />
-</p>
-
-> Активно погружаюсь в **React** и компонентную веб-архитектуру, расширяя кругозор от нативного мобильного Compose и Vanilla JS до полноценного SPA-стека.
 
 ---
 
@@ -84,7 +68,7 @@
     - `traffic_service.py` — сбор и агрегация сетевого трафика из системных журналов (`journalctl`) Hysteria 2.
     - `xray_service.py` — динамическая генерация конфигураций Xray-core и балансировка нагрузки.
     - `email_service.py` — асинхронная отправка email-уведомлений, чеков и одноразовых кодов (SMTP).
-  - **Платёжная инфраструктура:** ЮKassa API с криптографической проверкой вебхуков и автоматической фискализацией чеков (54-ФЗ / 422-ФЗ).
+  - **Платёжная инфраструктура:** ЮKassa API с криптографической проверкой вебхуков и автоматической фискализация чеков (54-ФЗ / 422-ФЗ).
 
 #### 📱 3. Mobile Client / Android (Нативный мобильный клиент)
 - **Технологический стек:** Kotlin 2.x, Android SDK 35 (minSdk 24), Jetpack Compose, Material Design 3, Kotlin Coroutines, StateFlow / SharedFlow, Tencent MMKV, OkHttp3 / Retrofit, WorkManager, Gradle Kotlin DSL.
@@ -125,41 +109,6 @@
   *Стек:* `Python`, `Computer Vision`, `Face Recognition`, `Web UI`  
   Прототип бесконтактной верификации учащихся на школьных турникетах (замена физических карт) с детекцией посторонних лиц и интеграцией базы розыска для оперативного вызова служб безопасности.  
   *Инженерный вызов:* Столкнулся с проблемой распознавания азиатских лиц из-за смещения обучающих выборок стандартных моделей, что потребовало подбора специализированных моделей эмбеддингов и калибровки векторов признаков.
-
----
-
-### 💻 Стек технологий / Tech Arsenal
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=kotlin,python,fastapi,go,c,androidstudio,tailwind,js,html,css,sqlite,docker,linux,bash,git,github" alt="Skills Wall" />
-</div>
-
-<br/>
-
-| Категория | Технологии и инструменты |
-|:---|:---|
-| **Языки программирования** | `Kotlin`, `Python 3.11+`, `Go (Golang)`, `C`, `JavaScript (ES6+)`, `Bash / Shell`, `SQL` |
-| **Frontend & UI/UX** | `Tailwind CSS`, `HTML5 / Semantic Web`, `Vanilla JS`, `Jetpack Compose`, `Material Design 3` |
-| **Backend & APIs** | `FastAPI`, `Uvicorn (ASGI)`, `Pydantic v2`, `SQLite (WAL mode)`, `RESTful APIs`, `Webhooks` |
-| **Мобильная разработка** | `Android SDK`, `Android VpnService`, `Tun2Socks`, `MMKV`, `WorkManager`, `OkHttp3`, `Coroutines` |
-| **Сетевые протоколы & Ядра** | `Xray-core`, `Hysteria 2 (QUIC)`, `VLESS`, `Trojan`, `Shadowsocks`, `XTLS / Reality`, `HEV Tunnel` |
-| **Безопасность & Криптография** | `Argon2id`, `AES-256-GCM`, `HMAC-SHA256`, `OAuth2 / Bearer Tokens`, `SSL / TLS 1.3` |
-| **Платёжные интеграции** | `YooKassa API`, `Фискализация 54-ФЗ / 422-ФЗ`, `Вебхуки с цифровой подписью` |
-| **DevOps & Системное администрирование** | `Docker`, `Docker Compose`, `Linux (Debian/Ubuntu)`, `Systemd`, `Nginx`, `Git / GitHub Actions` |
-
----
-
-### 🛠️ Мой сетап / Dev Setup & Workflow
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/OS-Windows%20%7C%20Omarchy%20Linux-0078D6?style=for-the-badge&logo=linux&logoColor=white" alt="OS" />
-&nbsp;
-<img src="https://img.shields.io/badge/IDE-Android%20Studio%20%7C%20VS%20Code-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt="IDEs" />
-&nbsp;
-<img src="https://img.shields.io/badge/Tools-Docker%20%7C%20Git%20%7C%20Postman%20%7C%20Termius-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Tools" />
-
-</div>
 
 ---
 
