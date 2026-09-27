@@ -48,7 +48,7 @@
 **TabisVPN (ТАБЫС)** — проект защищённого сетевого туннелирования. Включает мобильный клиент, десктопное приложение, бэкенд с автоматизированным биллингом и веб-интерфейсы.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1448TKNMMg4BFu/giphy.gif" width="480" alt="Anime Project Vibe" />
+  <img src="no shit https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1448TKNMMg4BFu/giphy.gif" width="480" alt="Anime Project Vibe" />
 </p>
 
 #### 🌐 1. Frontend & Web Touchpoints (Веб-интерфейсы)
@@ -187,7 +187,7 @@
 
 <br/><br/>
 
-<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZGdhdHBzZnpwZnd0aGI0MGJla3dzbXJpeDYzeDVjaGo5aDJteWF2cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yALcFbrKshfoY/giphy.gif" width="220" alt="Wave Goodbye" />
+<img src="no shit https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZGdhdHBzZnpwZnd0aGI0MGJla3dzbXJpeDYzeDVjaGo5aDJteWF2cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yALcFbrKshfoY/giphy.gif" width="220" alt="Wave Goodbye" />
 
 </div>
 
