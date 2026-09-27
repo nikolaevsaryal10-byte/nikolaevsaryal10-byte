@@ -23,7 +23,7 @@
 > *"Просто личный репортаж о проектах, экспериментах и том, что интересно пробовать на практике."*
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IKFVtPf8jP6KJH16dB/giphy.gif" width="480" alt="Anime Vibe" />
+  <img src="no shit https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IKFVtPf8jP6KJH16dB/giphy.gif" width="480" alt="Anime Vibe" />
 </p>
 
 - 🛡️ **[TabisVPN](https://github.com/nikolaevsaryal10-byte/tabisvpn)** — проект экосистемы сетевого туннелирования (Android, Windows, Web, Backend).
