@@ -9,7 +9,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nikolaevsaryal10-byte&color=009688&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+
   <img src="https://img.shields.io/badge/Focus-High--Performance%20Networks-blueviolet?style=for-the-badge&logo=wireguard&logoColor=white" alt="Focus" />
   <img src="https://img.shields.io/badge/Flagship-TabisVPN-0061A4?style=for-the-badge&logo=shield&logoColor=white" alt="Project" />
 </p>
@@ -22,9 +22,7 @@
 
 > *"Просто личный репортаж о проектах, экспериментах и том, что интересно пробовать на практике."*
 
-<p align="center">
-  <img src="no shit https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IKFVtPf8jP6KJH16dB/giphy.gif" width="480" alt="Anime Vibe" />
-</p>
+
 
 - 🛡️ **[TabisVPN](https://github.com/nikolaevsaryal10-byte/tabisvpn)** — проект экосистемы сетевого туннелирования (Android, Windows, Web, Backend).
 - ⚡ **Используемый стек в проектах:** бэкенды (**Python / FastAPI**), мобильные клиенты (**Kotlin / Jetpack Compose**), сетевые компоненты (**Go Xray-core / C HEV tunnel**) и веб-страницы (**Tailwind CSS / ES6+**).
@@ -47,9 +45,7 @@
 
 **TabisVPN (ТАБЫС)** — проект защищённого сетевого туннелирования. Включает мобильный клиент, десктопное приложение, бэкенд с автоматизированным биллингом и веб-интерфейсы.
 
-<p align="center">
-  <img src="no shit https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXpsaHlpdHFvdm5xcXNycXo5dnVjcWs5anBndzkyMzk5aGhrNnR3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1448TKNMMg4BFu/giphy.gif" width="480" alt="Anime Project Vibe" />
-</p>
+
 
 #### 🌐 1. Frontend & Web Touchpoints (Веб-интерфейсы)
 - **Технологический стек:** Modern HTML5, Tailwind CSS, Vanilla JavaScript (ES6+ async/await, Fetch API), Google Fonts, QRious.
@@ -187,7 +183,7 @@
 
 <br/><br/>
 
-<img src="no shit https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZGdhdHBzZnpwZnd0aGI0MGJla3dzbXJpeDYzeDVjaGo5aDJteWF2cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yALcFbrKshfoY/giphy.gif" width="220" alt="Wave Goodbye" />
+
 
 </div>
 
